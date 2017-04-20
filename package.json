@@ -1,0 +1,29 @@
+{
+  "name": "sequelize-ensure-connection",
+  "version": "0.0.1",
+  "description": "Allows checking if sequelize has established connection to database before continuing. Useful for waiting databases in docker containers to start before running application.",
+  "main": "ensureConnection.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CbCaio/sequelize-ensure-connection.git"
+  },
+  "keywords": [
+    "sequelize",
+    "database",
+    "docker",
+    "connection"
+  ],
+  "author": "Caio Ceccon Bolognani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CbCaio/sequelize-ensure-connection/issues"
+  },
+  "homepage": "https://github.com/CbCaio/sequelize-ensure-connection#readme",
+  "devDependencies": {
+    "jest": "^19.0.2",
+    "sequelize": "^3.30.4"
+  }
+}
